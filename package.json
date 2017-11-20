@@ -1,0 +1,28 @@
+{
+  "name": "stellar-warfare-server",
+  "version": "1.0.0",
+  "description": "Application server for Stellar Warfare game.",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js true",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MysteryPoo/stellar-warfare-server.git"
+  },
+  "keywords": [
+    "stellar-warfare",
+    "server"
+  ],
+  "author": "Matthew Thornton",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MysteryPoo/stellar-warfare-server/issues"
+  },
+  "homepage": "https://github.com/MysteryPoo/stellar-warfare-server#readme",
+  "dependencies": {
+    "sockjs": "^0.3.19",
+    "uuid": "^3.0.1"
+  }
+}
